@@ -2,7 +2,7 @@
 
 A secure REST API built with FastAPI and PostgreSQL for tracking inventory items. Features full CRUD operations, JWT-based authentication, and interactive API documentation.
 
-## 🚀 Features
+## Features
 
 - **Full CRUD Operations** - Create, read, update, and delete inventory items
 - **JWT Authentication** - Secure user registration and login with token-based auth
@@ -11,7 +11,7 @@ A secure REST API built with FastAPI and PostgreSQL for tracking inventory items
 - **Interactive Documentation** - Auto-generated Swagger/OpenAPI docs
 - **Input Validation** - Request validation using Pydantic schemas
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Python 3.11+, FastAPI
 - **Database**: PostgreSQL
@@ -19,13 +19,13 @@ A secure REST API built with FastAPI and PostgreSQL for tracking inventory items
 - **ORM**: SQLAlchemy
 - **API Documentation**: OpenAPI/Swagger
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.11 or higher
 - PostgreSQL
 - Git
 
-## 🔧 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -66,7 +66,7 @@ A secure REST API built with FastAPI and PostgreSQL for tracking inventory items
    - API: http://127.0.0.1:8000
    - Interactive docs: http://127.0.0.1:8000/docs
 
-## 📚 API Endpoints
+## API Endpoints
 
 ### Authentication
 
@@ -85,7 +85,7 @@ A secure REST API built with FastAPI and PostgreSQL for tracking inventory items
 | PUT | `/items/{id}` | Update an item | Yes |
 | DELETE | `/items/{id}` | Delete an item | Yes |
 
-## 🔐 Authentication
+## Authentication
 
 This API uses JWT (JSON Web Tokens) for authentication.
 
@@ -110,7 +110,7 @@ This API uses JWT (JSON Web Tokens) for authentication.
    - In Swagger docs: Click "Authorize" button and enter your credentials
    - In API calls: Add header `Authorization: Bearer YOUR_TOKEN`
 
-## 📖 Example Usage
+##  Example Usage
 
 ### Register a User
 ```bash
@@ -145,7 +145,7 @@ curl -X GET "http://127.0.0.1:8000/items" \
   -H "Authorization: Bearer YOUR_TOKEN"
 ```
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 inventory-api/
@@ -161,14 +161,14 @@ inventory-api/
 └── README.md
 ```
 
-## 🔒 Security Features
+## Security Features
 
 - Passwords are hashed using bcrypt before storage
 - JWT tokens expire after 30 minutes
 - Protected endpoints require valid authentication
 - SQL injection protection through SQLAlchemy ORM
 
-## 🚀 Deployment
+## Deployment
 
 This API can be deployed on platforms like:
 - Render
@@ -177,16 +177,17 @@ This API can be deployed on platforms like:
 - Heroku
 
 
-## 👤 Author
+## Author
 
 **Javier Bigio Dávila**
 - GitHub: [@Dinurian123](https://github.com/Dinurian123)
 - Email: Javibig16@gmail.com
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Built as part of a software development portfolio project to demonstrate:
 - RESTful API design
 - Database architecture
 - Authentication implementation
 - Modern Python web development practices
+
